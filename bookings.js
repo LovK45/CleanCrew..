@@ -1,0 +1,1 @@
+function createBookingFromForm(e){e.preventDefault();const d=Object.fromEntries(new FormData(e.target).entries());d.amount=Number(d.amount);cceApi('create_booking',d);toast('Job booked');setTimeout(()=>location.href='bookings.html',700)}

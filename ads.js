@@ -1,0 +1,1 @@
+function createAdDemo(){CCEStore.add('ads',{name:'New Service Boost',budget:75,leads:0,roi:'Pending'});toast('Ad campaign created')}

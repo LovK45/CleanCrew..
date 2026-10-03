@@ -1,0 +1,1 @@
+function trackAffiliateDemo(){toast('Affiliate click tracked with local cookie demo')}

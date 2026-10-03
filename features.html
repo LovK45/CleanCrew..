@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Features | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script>
+<script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script>
+<script defer src="branding.js"></script></head>
+<body class="features-page">
+<main class="page feature-hub-page">
+  <section class="feature-hub-hero center">
+    <p class="eyebrow">Feature Suite</p>
+    <h1>Your CleanCrew Platform</h1>
+    <p class="lead">Every module below links to an existing tool already included in this CleanCrew Empire build.</p>
+    <div class="feature-tabs" role="group" aria-label="Filter features">
+      <button class="feature-tab active" data-filter="all">All Tools</button>
+      <button class="feature-tab" data-filter="operations">Operations</button>
+      <button class="feature-tab" data-filter="money">Money</button>
+      <button class="feature-tab" data-filter="team">Team</button>
+      <button class="feature-tab" data-filter="growth">Growth</button>
+    </div>
+  </section>
+
+  <section class="feature-image-grid" id="featureGrid">
+    <article class="feature-image-card" data-cat="operations">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Service Package Builder</h3><p>Create cleaning packages that clients understand instantly. Define package name, clean type, room count, add-ons, estimated time, client price, staff pay, and checklist items.</p><a class="btn" href="service-package-builder.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="operations">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Booking Requests</h3><p>Clients submit cleaning requests with address, preferred date/time, service type, home size, notes, and affiliate discount code. Owner/admin can approve and assign a cleaner.</p><a class="btn" href="booking-requests.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="growth">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Before / After Gallery</h3><p>Document previous work with before/after image links, client name, service type, room cleaned, and notes.</p><a class="btn" href="before-after-gallery.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="money">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Cleaning Quote Calculator</h3><p>Calculate prices by service type, bedrooms, bathrooms, add-ons, travel fee, and affiliate discount, including staff pay and estimated profit.</p><a class="btn" href="cleaning-quote-calculator.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="team">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Cleaner Hiring Board</h3><p>Track cleaner applicants, availability, desired pay, experience, contact information, and hiring status.</p><a class="btn" href="cleaner-hiring-board.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="operations team">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Job Schedule</h3><p>Schedule jobs with date, time, address, client contact, assigned cleaner/team, service type, client price, staff pay, and payment status.</p><a class="btn" href="job-schedule.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="operations growth">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Client Portal</h3><p>Clients can book cleanings, view estimated pricing, leave cleaning notes, submit reviews, and use affiliate discount codes.</p><a class="btn" href="client-portal.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="operations team">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Supply Checklist</h3><p>Track supplies for each job, restock status, quantity, assigned cleaner, and whether supplies were packed before departure.</p><a class="btn" href="supply-checklist.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="money">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Expense Tracker</h3><p>Track supplies, gas, payroll, contractor, software, marketing, and equipment expenses by cleaning job or category.</p><a class="btn" href="expense-tracker.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="money growth">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Profit Dashboard</h3><p>See total client revenue, cleaner pay, expenses, unpaid jobs, and estimated net profit across the cleaning business.</p><a class="btn" href="profit-dashboard.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="growth">
+      <img src="assets/clean-empire-white.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Review Generator</h3><p>Generate review request messages and store client reviews for the owner to see after each clean.</p><a class="btn" href="review-generator.html">Open Feature</a></div>
+    </article>
+    <article class="feature-image-card" data-cat="money operations">
+      <img src="assets/clean-empire-black.png" alt="Clean Empire cleaner">
+      <div class="feature-image-body"><h3>Commercial Quote Builder</h3><p>Build commercial cleaning quotes based on square footage, frequency, bathrooms, staff needed, supplies, travel, and desired margin.</p><a class="btn" href="commercial-quote-builder.html">Open Feature</a></div>
+    </article>
+  </section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const tabs=[...document.querySelectorAll('.feature-tab')];
+  const cards=[...document.querySelectorAll('.feature-image-card')];
+  tabs.forEach(tab=>tab.addEventListener('click',()=>{
+    tabs.forEach(t=>t.classList.remove('active')); tab.classList.add('active');
+    const f=tab.dataset.filter;
+    cards.forEach(c=>{c.hidden=f!=='all'&&!c.dataset.cat.split(' ').includes(f)});
+  }));
+});
+</script>
+</body>
+</html>

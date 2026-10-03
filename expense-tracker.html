@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Costs + Profit</p>
+  <h1>Expense Tracker</h1>
+  <p class="lead">Track supplies, gas, payroll, contractor, software, marketing, and equipment expenses by cleaning job or business category.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Save Expense</h2>
+  <form class="workflow-form featureForm" data-feature="Expense Tracker" data-output="expenses" data-demo="Expense saved and ready to appear in profit calculations.">
+    <input type='input' name='label' placeholder='Expense label' required>
+<input type='number' name='amount' placeholder='Amount' required>
+<select name='category'><option>Supplies</option><option>Gas</option><option>Payroll</option><option>Contractor</option><option>Marketing</option><option>Equipment</option><option>Software</option><option>Other</option></select>
+<input type='input' name='jobAddress' placeholder='Related home/job' required>
+<input type='date' name='date' placeholder='Expense date' required>
+<textarea name='notes' placeholder='Expense notes'></textarea>
+    <button class="btn">Save Expense</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Expense Tracker Records</h2>
+  <div data-feature-list="expenses"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

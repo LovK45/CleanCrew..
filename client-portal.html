@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Portal | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Client Self-Service</p>
+  <h1>Client Portal</h1>
+  <p class="lead">Clients can book cleanings, view estimated pricing, leave notes about what they need cleaned, submit reviews, and use affiliate discount codes.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Send Client Request</h2>
+  <form class="workflow-form featureForm" data-feature="Client Portal" data-output="clientRequests" data-demo="Client request saved with service notes, address, pricing intent, and affiliate discount field.">
+    <input type='input' name='clientName' placeholder='Your name' required>
+<input type='input' name='phone' placeholder='Phone' required>
+<input type='input' name='address' placeholder='Home address' required>
+<select name='service'><option>Standard Clean</option><option>Deep Clean</option><option>Move-In/Move-Out</option><option>Airbnb Turnover</option></select>
+<input type='input' name='affiliateCode' placeholder='Affiliate discount code' required>
+<textarea name='notes' placeholder='What do you want cleaned?'></textarea>
+    <button class="btn">Send Client Request</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Client Portal Records</h2>
+  <div data-feature-list="clientRequests"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

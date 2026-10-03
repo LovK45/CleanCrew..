@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cleaner Hiring Board | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Staff Recruiting</p>
+  <h1>Cleaner Hiring Board</h1>
+  <p class="lead">Track cleaner applicants, availability, desired pay, experience, phone/email, and hiring status. Owner/admin can move applicants into active cleaner assignments.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Save Applicant</h2>
+  <form class="workflow-form featureForm" data-feature="Cleaner Hiring Board" data-output="applicants" data-demo="Cleaner applicant saved with availability, pay request, experience, and hiring status.">
+    <input type='input' name='name' placeholder='Applicant name' required>
+<input type='input' name='phone' placeholder='Phone' required>
+<input type='input' name='email' placeholder='Email' required>
+<input type='input' name='experience' placeholder='Experience e.g. 2 years residential' required>
+<input type='input' name='availability' placeholder='Availability' required>
+<input type='number' name='desiredPay' placeholder='Desired hourly pay' required>
+<select name='status'><option>New Applicant</option><option>Interviewing</option><option>Approved</option><option>Rejected</option><option>On Hold</option></select>
+<textarea name='notes' placeholder='Interview notes / strengths / concerns'></textarea>
+    <button class="btn">Save Applicant</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Cleaner Hiring Board Records</h2>
+  <div data-feature-list="applicants"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

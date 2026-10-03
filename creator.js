@@ -1,0 +1,1 @@
+function generateSponsorPitch(){const out='Hi {{brand}}, I run a growing cleaning business audience and can showcase your products through before/after content, checklist demos, and service workflow posts. Let’s build a sponsored cleaning campaign.';toast('Sponsor pitch generated');return out} 

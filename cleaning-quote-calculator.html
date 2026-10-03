@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cleaning Quote Calculator | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center"><p class="eyebrow">Smart Pricing Tool</p><h1>Cleaning Quote Calculator</h1><p class="lead">Calculate cleaning prices based on service type, bedrooms, bathrooms, add-ons, travel fee, and affiliate discount. The quote also estimates staff pay and business profit.</p></section>
+<section class="workflow-panel">
+<form id="quoteCalcForm" class="workflow-form">
+<select name="service"><option>Standard Clean</option><option>Deep Clean</option><option>Move-In/Move-Out</option><option>Airbnb Turnover</option></select>
+<input type="number" name="bedrooms" placeholder="Bedrooms" value="3">
+<input type="number" name="bathrooms" placeholder="Bathrooms" value="2">
+<input type="number" name="addons" placeholder="Add-ons count" value="1">
+<input type="number" name="travel" placeholder="Travel fee" value="15">
+<input type="number" name="discount" placeholder="Affiliate discount %" value="0">
+<button class="btn">Calculate Cleaning Quote</button>
+</form>
+<div id="featureOutput" class="result"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

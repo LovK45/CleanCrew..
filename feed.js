@@ -1,0 +1,2 @@
+function createCleaningFeedPost(title='New before/after post'){CCEStore.add('posts',{type:'photo',title,caption:'Fresh cleaning proof post created from feed module.',likes:0,saves:0,shares:0});toast('Feed post created')}
+function likePost(id){toast('Liked post '+id)}
