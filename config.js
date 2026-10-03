@@ -3,7 +3,7 @@ const CONFIG = {
   MODE: "live",
   OFFER_TYPE: "downloadable-package-email",
   APPS_SCRIPT_URL: "REPLACE_WITH_GOOGLE_APPS_SCRIPT_WEB_APP_URL",
-  CONTACT_EMAIL: "support@email.com",
+  CONTACT_EMAIL: "tha.doll.house@icloud.com",
   AUTOMATIC_EMAIL_DELIVERY: true,
   STRIPE_LINKS: {
     starter: "REPLACE_WITH_STRIPE_STARTER_LINK",
@@ -11,7 +11,7 @@ const CONFIG = {
     elite: "REPLACE_WITH_STRIPE_ELITE_LINK",
     business: "REPLACE_WITH_STRIPE_BUSINESS_LINK",
     sponsor: "REPLACE_WITH_STRIPE_SPONSOR_LINK",
-    reseller: "REPLACE_WITH_STRIPE_RESELLER_LINK"
+    reseller: "https://buy.stripe.com/aFa6oG2OJg4R4HPa5t4c800"
   }
 };
 window.CONFIG = CONFIG;
