@@ -9,7 +9,7 @@ const CONFIG = {
     starter: "REPLACE_WITH_STRIPE_STARTER_LINK",
     pro: "REPLACE_WITH_STRIPE_PRO_LINK",
     elite: "REPLACE_WITH_STRIPE_ELITE_LINK",
-    business: "REPLACE_WITH_STRIPE_BUSINESS_LINK",
+    business: "https://buy.stripe.com/5kQ3cu2OJ5qd7U17Xl4c802"",
     sponsor: "https://buy.stripe.com/dRm4gygFz05Tb6d0uT4c801",
     reseller: "https://buy.stripe.com/aFa6oG2OJg4R4HPa5t4c800"
   }
