@@ -1,0 +1,1 @@
+function addGalleryDemo(){CCEStore.add('gallery',{title:'Fresh before/after',tag:'Demo',image:'demo'});toast('Gallery image saved to demo database')}

@@ -1,0 +1,1 @@
+function addProductDemo(){toast('Digital checklist/product added. Connect Stripe product link in config.js')}

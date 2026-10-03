@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Schedule | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Daily + Weekly Jobs</p>
+  <h1>Job Schedule</h1>
+  <p class="lead">Schedule cleaning jobs with date, time, address, client contact, assigned cleaner/team, service type, client price, staff pay, and payment status.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Save Scheduled Job</h2>
+  <form class="workflow-form featureForm" data-feature="Job Schedule" data-output="jobs" data-demo="Scheduled job saved with address, cleaner/team assignment, client price, staff pay, and payment status.">
+    <input type='input' name='clientName' placeholder='Client name' required>
+<input type='input' name='phone' placeholder='Phone' required>
+<input type='input' name='address' placeholder='Home address' required>
+<input type='date' name='date' placeholder='Cleaning date' required>
+<input type='time' name='time' placeholder='Cleaning time' required>
+<input type='input' name='assignedTo' placeholder='Cleaner / team assigned' required>
+<input type='number' name='price' placeholder='Client price' required>
+<input type='number' name='payAmount' placeholder='Cleaner pay' required>
+<select name='paidStatus'><option>Unpaid</option><option>Deposit Paid</option><option>Paid In Full</option><option>Past Due</option></select>
+<textarea name='notes' placeholder='Job notes / checklist focus'></textarea>
+    <button class="btn">Save Scheduled Job</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Job Schedule Records</h2>
+  <div data-feature-list="jobs"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

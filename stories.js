@@ -1,0 +1,1 @@
+function createStory(){CCEStore.add('posts',{type:'story',title:'Today’s cleaning story',caption:'Behind-the-scenes crew update.',likes:0,saves:0,shares:0});toast('Story published for 24-hour demo mode')} 

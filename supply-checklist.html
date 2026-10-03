@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supply Checklist | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Inventory + Prep</p>
+  <h1>Supply Checklist</h1>
+  <p class="lead">Track cleaning supplies needed for each job, restock status, quantity, assigned cleaner, and whether supplies were packed before the team leaves.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Save Supply Item</h2>
+  <form class="workflow-form featureForm" data-feature="Supply Checklist" data-output="supplies" data-demo="Supply item saved with quantity, restock status, assigned team, and job address.">
+    <input type='input' name='jobAddress' placeholder='Job address' required>
+<input type='input' name='supply' placeholder='Supply item' required>
+<input type='input' name='quantity' placeholder='Quantity needed' required>
+<select name='status'><option>Need to Buy</option><option>In Stock</option><option>Packed</option><option>Used</option><option>Restock Soon</option></select>
+<input type='input' name='assignedTo' placeholder='Cleaner/team' required>
+<textarea name='notes' placeholder='Supply notes'></textarea>
+    <button class="btn">Save Supply Item</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Supply Checklist Records</h2>
+  <div data-feature-list="supplies"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

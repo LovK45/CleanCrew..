@@ -1,0 +1,1 @@
+function calcRevenue(){const s=CCEStore.get();return s.bookings.reduce((a,b)=>a+Number(b.amount||0),0)-s.expenses.reduce((a,b)=>a+Number(b.amount||0),0)}

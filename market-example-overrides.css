@@ -1,0 +1,18 @@
+/* Static marketplace example content: visible without network, API, login, or stored records. */
+.market-example-page .main{max-width:1500px;margin:0 auto;padding:34px 5vw 72px}
+.market-example-page .example-lead{margin:28px 0 18px;display:flex;justify-content:space-between;align-items:end;gap:22px}
+.market-example-page .example-lead h2{margin:.15rem 0 .4rem;font-size:clamp(2rem,4vw,3.4rem);line-height:1;letter-spacing:-.045em}
+.market-example-page .example-lead p{max-width:780px;margin:0;color:#645a55;font-size:1.08rem;line-height:1.65}
+.market-example-page .example-content-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;visibility:visible!important;opacity:1!important;height:auto!important;overflow:visible!important;padding-bottom:44px!important}
+.market-example-page .example-content-card{display:flex!important;visibility:visible!important;opacity:1!important;background:#fff!important;border:1px solid rgba(31,21,21,.08)!important;border-radius:28px!important;overflow:hidden!important;box-shadow:0 18px 50px rgba(52,34,31,.1)!important;flex-direction:column!important}
+.market-example-page .example-content-card>img{display:block!important;width:100%!important;height:250px!important;object-fit:cover!important;background:#f7efe7!important}
+.market-example-page .example-card-body{display:flex!important;flex:1!important;flex-direction:column!important;gap:10px!important;padding:22px!important;min-height:300px!important}
+.market-example-page .example-card-body h3{font-size:1.55rem!important;line-height:1.1!important;margin:0!important;color:#181313!important}
+.market-example-page .example-card-body p{color:#665d58!important;line-height:1.55!important;margin:0!important}
+.market-example-page .example-meta{margin-top:auto!important;display:flex!important;justify-content:space-between!important;gap:12px!important;align-items:center!important;border-top:1px solid #eee3dc!important;padding-top:12px!important}
+.market-example-page .example-actions{display:flex!important;gap:9px!important;flex-wrap:wrap!important;margin-top:5px!important}
+.market-example-page .market-pill{display:inline-flex!important;align-self:flex-start!important;padding:7px 11px!important;border-radius:999px!important;background:#ffe4ed!important;color:#8e294b!important;font-weight:900!important;font-size:.78rem!important;letter-spacing:.02em!important}
+.market-example-page .sample-ribbon{position:absolute;top:16px;right:16px;background:#171313;color:#fff;border-radius:999px;padding:7px 11px;font-weight:900;font-size:.72rem;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.market-example-page .example-content-card{position:relative}
+@media(max-width:1000px){.market-example-page .example-content-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:650px){.market-example-page .main{padding:24px 18px 56px}.market-example-page .example-content-grid{grid-template-columns:1fr!important}.market-example-page .example-content-card>img{height:220px!important}.market-example-page .example-lead{display:block}.market-example-page .example-lead h2{font-size:2rem}}

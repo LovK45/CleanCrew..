@@ -1,0 +1,1 @@
+function createServiceFromForm(e){e.preventDefault();const d=Object.fromEntries(new FormData(e.target).entries());d.price=Number(d.price);cceApi('create_service',d);toast('Service published');setTimeout(()=>location.href='services.html',700)}

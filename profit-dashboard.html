@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profit Dashboard | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center"><p class="eyebrow">Revenue - Pay - Expenses</p><h1>Profit Dashboard</h1><p class="lead">See total client revenue, cleaner pay, expenses, unpaid jobs, and estimated net profit across the cleaning business.</p></section>
+<section class="workflow-panel">
+<form id="profitCalcForm" class="workflow-form">
+<input type="number" name="revenue" placeholder="Client revenue" value="2500">
+<input type="number" name="staffPay" placeholder="Cleaner pay" value="950">
+<input type="number" name="expenses" placeholder="Supplies/gas/other expenses" value="275">
+<input type="number" name="unpaid" placeholder="Unpaid job balances" value="300">
+<button class="btn">Calculate Profit Snapshot</button>
+</form>
+<div id="featureOutput" class="result"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>

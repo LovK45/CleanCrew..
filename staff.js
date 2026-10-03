@@ -1,0 +1,1 @@
+function hireCleaner(name='New Applicant'){CCEStore.add('staff',{name,role:'Cleaner',status:'Applicant',rating:0,jobs:0});toast('Cleaner applicant added')}

@@ -1,0 +1,2 @@
+function createLockedCleaningContent(){CCEStore.add('posts',{type:'locked',title:'Paid Deep Clean Checklist',caption:'Locked checklist for premium members.',likes:0,saves:0,shares:0});toast('Locked paid content created')}
+function calcCreatorRevenue(revenue=1000,fee=.05){const net=revenue-(revenue*fee);toast('Estimated net revenue: '+money(net));return net}

@@ -1,0 +1,2 @@
+function uploadReelPreview(){CCEStore.add('posts',{type:'reel',title:'Short cleaning reel preview',caption:'15-second sparkle transformation preview.',likes:0,saves:0,shares:0});toast('Reel preview added')}
+function nextReel(){toast('Showing next cleaning short-video')} 

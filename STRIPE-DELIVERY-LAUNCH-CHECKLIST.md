@@ -1,0 +1,22 @@
+# Stripe Delivery Launch Checklist
+
+- [ ] Upload all 6 final buyer ZIPs to the Apps Script owner's Google Drive.
+- [ ] Add all 6 Drive File IDs to Script Properties.
+- [ ] Add `STRIPE_SECRET_KEY`.
+- [ ] Add a long random `STRIPE_WEBHOOK_KEY`.
+- [ ] Add all six Stripe Price IDs (recommended).
+- [ ] Deploy Apps Script as Web App: Execute as Me / Anyone.
+- [ ] Paste the `/exec` URL into `config.js`.
+- [ ] Add the Apps Script webhook endpoint in Stripe.
+- [ ] Subscribe to `checkout.session.completed`.
+- [ ] Subscribe to `checkout.session.async_payment_succeeded`.
+- [ ] Configure each Stripe Payment Link to redirect to `success.html?session_id={CHECKOUT_SESSION_ID}`.
+- [ ] Test Starter $29 delivery.
+- [ ] Test Cleaner Pro $79 delivery.
+- [ ] Test Cleaning Elite $149 delivery.
+- [ ] Test Business $299 delivery.
+- [ ] Test Sponsor $499 delivery.
+- [ ] Test Reseller $997 delivery.
+- [ ] Confirm `DELIVERY_LOG` records each order once.
+- [ ] Confirm replayed webhooks do not send duplicate emails.
+- [ ] Replace Stripe test credentials with live credentials.

@@ -1,0 +1,1 @@
+function sendMessageDemo(){toast('Message saved and notification queued')}

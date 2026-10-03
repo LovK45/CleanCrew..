@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Generator | CleanCrew Empire</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="config.js"></script>
+<script defer src="api.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="cleancrew-staff.js"></script>
+<script defer src="feature-fix.js"></script><script defer src="global-nav-role.js"></script>
+<script defer src="production-engine.js"></script><script defer src="branding.js"></script></head>
+<body>
+<main class="page">
+
+<section class="center">
+  <p class="eyebrow">Reputation Builder</p>
+  <h1>Review Generator</h1>
+  <p class="lead">Generate review request messages and store client reviews for the owner to see after each clean.</p>
+</section>
+<section class="workflow-panel">
+  <h2>Save Review</h2>
+  <form class="workflow-form featureForm" data-feature="Review Generator" data-output="reviews" data-demo="Review saved and review request message generated for follow-up.">
+    <input type='input' name='clientName' placeholder='Client name' required>
+<input type='input' name='service' placeholder='Service completed' required>
+<select name='rating'><option>5 Stars</option><option>4 Stars</option><option>3 Stars</option><option>2 Stars</option><option>1 Star</option></select>
+<textarea name='review' placeholder='Client review'></textarea>
+    <button class="btn">Save Review</button>
+  </form>
+  <div id="featureOutput" class="result"></div>
+</section>
+<section class="workflow-panel">
+  <h2>Saved Review Generator Records</h2>
+  <div data-feature-list="reviews"></div>
+</section>
+</main>
+<footer class="footer"><strong>CleanCrew Empire</strong> — real cleaning-business modules with role dashboards and Google Sheets-ready workflows.</footer>
+</body>
+</html>
