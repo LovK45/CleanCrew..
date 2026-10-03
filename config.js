@@ -6,7 +6,7 @@ const CONFIG = {
   CONTACT_EMAIL: "tha.doll.house@icloud.com",
   AUTOMATIC_EMAIL_DELIVERY: true,
   STRIPE_LINKS: {
-    starter: "REPLACE_WITH_STRIPE_STARTER_LINK",
+    starter: "https://buy.stripe.com/bJe5kC3SNbOBeipcdB4c805",
     pro: "https://buy.stripe.com/4gMfZgahb5qddelcdB4c804",
     elite: "https://buy.stripe.com/6oUaEWfBvcSF1vD2D14c803",
     business: "https://buy.stripe.com/5kQ3cu2OJ5qd7U17Xl4c802"",
