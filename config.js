@@ -2,7 +2,7 @@ const CONFIG = {
   APP_NAME: "CleanCrew Empire™",
   MODE: "live",
   OFFER_TYPE: "downloadable-package-email",
-  APPS_SCRIPT_URL: "REPLACE_WITH_GOOGLE_APPS_SCRIPT_WEB_APP_URL",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzav-Ut6h57KL-kPv9cxAn17X9jKtfHXGTHfaI8iRFR-9vBLnf1davDLgKRa6Np8gue1Q/exec",
   CONTACT_EMAIL: "tha.doll.house@icloud.com",
   AUTOMATIC_EMAIL_DELIVERY: true,
   STRIPE_LINKS: {
